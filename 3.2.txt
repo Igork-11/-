@@ -1,0 +1,22 @@
+﻿#include <stdio.h>
+#include <math.h>
+int main()
+{
+float R,a,Sa,SR,c;
+printf("довжина сторони квадрата a=");
+scanf("%g",&a);
+printf("радіус круга R=");
+scanf("%g",&R);
+Sa=a*a;
+SR=2*pow(R,2);
+c=Sa/2;
+if(SR<=c)
+{
+    printf("круг поміститься");
+}
+else
+{
+    printf("круг не поміститься");
+}
+    return 0;
+}

@@ -1,0 +1,14 @@
+﻿#include <stdio.h>
+#include <math.h>
+int main()
+{
+float x,y,t;
+printf("введіть точку x=");
+scanf("%g",&x);
+printf("введіть точку y=");
+scanf("%g",&y);
+t=(pow(x,2)+x*y-pow(y,2))/(1+pow(x,2)+pow(y,2));
+printf("t="); 
+printf("%g", t); 
+    return 0;
+}

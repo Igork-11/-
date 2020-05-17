@@ -1,0 +1,26 @@
+﻿#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("введіть чісло:");
+    scanf("%d",&a);
+    switch(a)
+    {
+         case 1: printf("січень"); break;
+         case 2: printf("лютий"); break;
+         case 3: printf("березень"); break;
+         case 4: printf("квітень"); break;
+         case 5: printf("травень"); break;
+         case 6: printf("червень"); break;
+         case 7: printf("липень"); break;
+         case 8: printf("серпень"); break;
+         case 9: printf("вересень"); break;
+         case 10: printf("жовтень"); break;
+         case 11: printf("листопад"); break;
+         case 12: printf("грудень"); break;
+         default: printf("такого місяця ще не вигадали"); break;
+    }
+
+    return 0;
+}
